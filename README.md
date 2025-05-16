@@ -6,8 +6,6 @@ To develop a convolutional autoencoder for image denoising application.
 ## THEORY
 A convolutional autoencoder is a neural network that learns to compress (encode) an image into a lower‐dimensional representation and then reconstruct (decode) it back to its original size. By training on pairs of noisy and clean images, the encoder learns to extract robust feature maps that ignore noise, while the decoder uses these features to reconstruct the denoised image. Convolutional layers preserve spatial structure, making this approach well suited for image‐level tasks like denoising.
 
-## Neural Network Model
-Include the neural network model diagram.
 
 ## DESIGN STEPS
 ### STEP 1: 
